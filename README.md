@@ -5,7 +5,7 @@ Practical small tools to deal with txt files.
 ``` 
 Usage:perl add_feature.pl -i input -c1 1,2,3   -p|-pattern  sample\*.replicate\*.txt  -c2 4,5 -c3 6,7,8  -title(optional) -s|-suffix(optional) .txt  -o output
 -h|--help:    print manual;
--c1:    columns constituting a uniq tag in input;
+-c1:    columns constituting a unique tag in input;
 -p|-pattern:    the parameter is used to search files matching the pattern;
 -c2:    columns constituting the tag in files matching the pattern;
 -c3:    columns of features in files matching the patten,which need to be added to the input; 
