@@ -21,12 +21,12 @@ sub USAGE{
 my $usage=<<EOF;
 Usage:perl $0 -i input -c1 1,2,3   -p|-pattern  sample\\*.replicate\\*.txt  -c2 4,5 -c3 6,7,8  -title(optional) -s|-suffix(optional) .txt  -o output
 -h|--help:    print manual;
--c1:    columns of tag in input;
+-c1:    columns constituting a unique tag in input;
 -p|-pattern:    the parametre is used to search files matching the pattern;
--c2:    columns of tag in files matching the pattern;
--c3:    columns of the features which need to be added in files match the patten;
+-c2:    columns constituting the tag in files matching the pattern;
+-c3:    columns of features in files matching the patten,which need to be added to the input;
 -title:    if this parametre is true, a title will be added to the output;
--s|-suffix   this parametre only works when -title is setted;
+-s|-suffix   suffix of files matching the pattern,this parameter only works when -title is setted;
 EOF
 
 print $usage;
